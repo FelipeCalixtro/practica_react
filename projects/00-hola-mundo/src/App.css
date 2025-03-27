@@ -1,0 +1,29 @@
+article.tw-followCard{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap:20px;
+    color: white;
+    align-items: center;
+}
+article.tw-followCard header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+article.tw-followCard .content {
+    display: grid ;
+}
+.tw-followCard button {
+    border: none;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.grid{
+    display: grid;
+}
+.gap-s{
+    grid-gap: 15px;
+}
